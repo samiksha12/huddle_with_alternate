@@ -9,7 +9,7 @@ function Header() {
     <StyledHeader>
       <Container>
         <Nav>
-          <Logo src="./images/logo.svg" />
+          <Logo src="./images/logo.svg" alt=""/>
           <Button>Try It Free</Button>
         </Nav>
         <Flex>
