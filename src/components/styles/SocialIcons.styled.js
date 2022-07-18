@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const StyledSocialIcons = styled.div`
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
   li {
     list-style: none;
   }
@@ -20,7 +22,9 @@ export const StyledSocialIcons = styled.div`
     text-decoration: none;
   }
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    justify-content: center;
-    align-items: center;
+    ul {
+      justify-content: center;
+      align-items: center;
+    }
   }
 `;
